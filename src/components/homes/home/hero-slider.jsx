@@ -95,7 +95,7 @@ const HeroSlider = () => {
 
     return (
         <>
-            <div className="tp-hero__area tp-hero__pl-pr">
+            <div className="tp-hero__area" style={{paddingTop: '10px'}}>
                 <div className="tp-hero__bg p-relative">
                     <div className="tp-hero-bg tp-hero-bg-single" ref={hero_bg} >
                         <Image 

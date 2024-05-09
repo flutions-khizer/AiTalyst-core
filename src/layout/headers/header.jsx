@@ -42,7 +42,7 @@ const Header = () => {
     return (
         <>
          <header className="header-bottom__transparent z-index-6 tp-header-height">
-               <div className="header-top__area header-top__space z-index-3 d-none d-md-block tp-header-top-animation" ref={el => header_top_animation = el} >
+               {/* <div className="header-top__area header-top__space z-index-3 d-none d-md-block tp-header-top-animation" ref={el => header_top_animation = el} >
                   <div className="container">
                      <div className="row align-items-start">
                         <div className="col-6">
@@ -63,7 +63,7 @@ const Header = () => {
                         </div>
                      </div>
                   </div>
-               </div>
+               </div> */}
 
                <div id="header-sticky" className={`header-bottom__area header-mob-space header-bottom__area-2 header-bottom__transparent z-index-5 ${sticky && "header-sticky"}`}>
                   <div className="container">

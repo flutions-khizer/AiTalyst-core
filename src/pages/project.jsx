@@ -6,7 +6,7 @@ import Wrapper from "../layout/wrapper";
 const indx = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Softec - Data analytics"} />
+      <SEO pageTitle={"AiTalyst - Data analytics"} />
       <Project />
     </Wrapper>
   );
