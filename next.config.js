@@ -5,7 +5,8 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  distDir: './out', 
+  distDir: './out',
+  basePath: '/aitalyst-core',
 }
 
 module.exports = nextConfig
