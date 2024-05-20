@@ -2,6 +2,7 @@
   "name": "aitalyst-core",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://flutions-khizer.github.io/aitalyst-core/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
